@@ -1,0 +1,76 @@
+
+:root {
+    --primary-color: #4a90e2;
+    --secondary-color: #f4f6f9;
+    --text-color: #333;
+    --button-hover: #357abd;
+    --card-bg: #ffffff;
+    --input-border: #ccc;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+  }
+  
+  .card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    min-width: 350px;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .body {
+    padding: 1.5rem;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: 0.3s ease;
+  }
+  
+  .inputField:focus {
+    border-color: #1e3c72;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(30, 60, 114, 0.5);
+  }
+  
+  .loginButton {
+    width: 50%;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    color: white;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 6px;
+    margin-left: 8.2rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background: var(--button-hover);
+  }
+  

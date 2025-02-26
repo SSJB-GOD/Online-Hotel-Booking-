@@ -1,0 +1,119 @@
+body {
+    
+    background-color: #fefefe; /* Light grey background */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.container {
+    margin-top: 20px;
+  }
+  
+  .carouselSection {
+    margin-bottom: 40px;
+  }
+  
+  .sidebar {
+    background-color: #ffffff00;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .hotelCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .hotelCard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hotelCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hotelCard img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .hotelCardContent {
+    padding: 15px;
+  }
+  
+  .hotelCardTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .hotelCardDescription {
+    color: #6c757d;
+    margin-bottom: 15px;
+  }
+  
+  .hotelCardPrice {
+    font-size: 1.2rem;
+    color: #28a745;
+  }
+  
+  .footer {
+    margin-top: 40px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .sidebar h5 {
+    font-size: 1.2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .sidebar a {
+    color: #FFF;
+    background-color: #379ff4;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .container-fluid {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .hotelCardContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hotelCard {
+      width: 100%;
+    }
+  }
+  

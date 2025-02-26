@@ -1,0 +1,89 @@
+/* Full-screen container styling */
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Take full height of the screen */
+    width: 100vw; /* Take full width of the screen */
+    background-color: #f4f7fa; /* Light background color */
+  }
+  
+  /* Card styling with wide width */
+  .card {
+    width: 100%;
+    max-width: 1200px; /* Ensures the card doesn't get too wide on large screens */
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  /* Header with primary color and padding */
+  .header {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    text-align: center;
+    padding: 20px; /* Increased padding for better spacing */
+    font-size: 28px;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  /* Body for scrolling content */
+  .body {
+    overflow-y: auto;
+    margin-top: 2px;
+    padding: 20px;
+  }
+  
+  /* Table structure with full width */
+  .table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
+  /* Table header with primary color */
+  .thead {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    font-weight: bold;
+    border: 1px solid #ddd;
+  }
+  
+  /* Table cell padding and border */
+  .table td, .table th {
+    padding: 12px; /* Increased padding for better readability */
+    border: 1px solid #ddd;
+  }
+  
+  /* Styling for images inside the table */
+  .image {
+    max-width: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Hover effect for table rows */
+  .table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Button styling */
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

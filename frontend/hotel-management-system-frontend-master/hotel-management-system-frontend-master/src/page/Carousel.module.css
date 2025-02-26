@@ -1,0 +1,94 @@
+/* Carousel Styling */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .carousel-inner {
+    position: relative;
+  }
+  
+  .carousel-item {
+    transition: transform 1s ease;
+  }
+  
+  .carousel img {
+    object-fit: fill;
+    width: 100%;
+    height: 450px; /* Set a fixed height for all images */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.979);/* Optional: Add shadow for depth*/
+  }
+  
+  /* Custom Carousel Indicators */
+  .carouselIndicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+  }
+  
+  .indicator {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .indicator.active {
+    background-color: #007bff;
+  }
+  
+  /* Hover Effect for Indicators */
+  .indicator:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Custom Controls Styling */
+  .carouselControl {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+
+    padding: 10px;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carouselControl:hover {
+    
+    background-color: transparent;
+  }
+  
+  /* Custom Control Icons */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .carousel img {
+      height: 300px; /* Reduced height for smaller screens */
+    }
+  
+    .carouselIndicators {
+      bottom: 10px;
+    }
+  
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      padding: 8px;
+    }
+  }
+  

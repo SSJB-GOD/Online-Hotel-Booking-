@@ -1,0 +1,161 @@
+/* body{
+    background: linear-gradient(135deg, #4a90e2, #3c3b3f);
+} */
+
+.contactContainer {
+    background-color: #f5f8fa;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  
+  .subHeading {
+    font-size: 1.1rem;
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  .formGroup {
+    margin-bottom: 25px;
+  }
+  
+  .label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #343a40;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 5px;
+    transition: border 0.3s ease;
+  }
+  
+  .input:focus,
+  .textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  .btn:active {
+    transform: translateY(1px);
+  }
+  
+  .alert {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-weight: 500;
+  }
+  
+  .socialMedia {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .socialMedia h5 {
+    font-size: 1.2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .socialIcon {
+    font-size: 1.8rem;
+    color: #343a40;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .socialIcon:hover {
+    color: #007bff;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #6c757d;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .socialIcons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contactContainer {
+      padding: 25px;
+    }
+  
+    .heading {
+      font-size: 2rem;
+    }
+  
+    .subHeading {
+      font-size: 1rem;
+    }
+  
+    .input,
+    .textarea {
+      font-size: 0.95rem;
+    }
+  
+    .btn {
+      font-size: 1rem;
+    }
+  }
+  

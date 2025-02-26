@@ -1,0 +1,103 @@
+/* Header.module.css */
+
+/* Navbar styling */
+.navbar {
+    background-color: #4a90e2; /* Updated background color */
+    /* padding: 10px 20px; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navBrand {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navBrand:hover {
+    color: #ffcc00;
+  }
+  
+  /* Navbar Links styling */
+  .navLink {
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 20px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .navLink:hover {
+    color: #ffcc00;
+    animation: textHoverEffect 0.5s ease-out forwards;
+  }
+  
+  /* Animation for text hover */
+  @keyframes textHoverEffect {
+    0% {
+      transform: scale(1);
+      color: #ffffff;
+    }
+    50% {
+      transform: scale(1.2);
+      color: #ffcc00;
+    }
+    100% {
+      transform: scale(1);
+      color: #ffcc00;
+    }
+  }
+  
+  /* Toggler styling */
+  .navbar-toggler {
+    border: 1px solid #ffffff;
+    background-color: transparent;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  
+  /* Text color for header */
+  .textColor {
+    color: #ffffff;
+  }
+  
+  .navbar-nav .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-item a {
+    font-weight: normal;
+    color: #ffffff !important;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: #ffcc00 !important;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px 15px;
+    }
+  
+    .navLink {
+      font-size: 16px;
+    }
+  
+    .navBrand {
+      font-size: 22px;
+    }
+  }
+  
